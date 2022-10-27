@@ -13,7 +13,7 @@ func main() {
 	log.SetPrefix("greetings: ")
 	log.SetFlags(0)
 
-	greeting, err := greetings.Hello("")
+	greeting, err := greetings.Hello("Pierre")
 
 	// Prints an error to the console and exits the program if an error was
 	// returned by the greeings.Hello function.
